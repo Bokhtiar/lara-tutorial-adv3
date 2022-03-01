@@ -17,5 +17,10 @@ Route::get('helper', function () {
 });
 
 
-
+// Route::get('postCreate','PostController@postCreate');
+// Route::post('postData','PostController@postData')->name('postData');
 Route::get('user', [App\Http\Controllers\UserController::class, 'index']);
+
+
+Route::get('postCreate', [App\Http\Controllers\PostController::class, 'postCreate']);
+Route::post('postData', [App\Http\Controllers\PostController::class, 'postData'])->name('postData');
