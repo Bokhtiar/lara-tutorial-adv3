@@ -18,3 +18,4 @@ Route::get('helper', function () {
 
 
 
+Route::get('user', [App\Http\Controllers\UserController::class, 'index']);

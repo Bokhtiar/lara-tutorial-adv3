@@ -176,6 +176,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\TelescopeServiceProvider::class,
+
+        //model cache
+        Barryvdh\Debugbar\ServiceProvider::class,
 
     ],
 
@@ -234,7 +238,10 @@ return [
 
         //helper class
         'Helper' => App\Helpers\Helper::class,
-        'DemoClass'=> App\ItSolution\DemoClassFacade::class
+        'DemoClass'=> App\ItSolution\DemoClassFacade::class,
+
+        //model cache
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
 
