@@ -180,6 +180,8 @@ return [
 
         //model cache
         Barryvdh\Debugbar\ServiceProvider::class,
+        //pdf
+        Barryvdh\DomPDF\ServiceProvider::class,
 
     ],
 
@@ -241,7 +243,9 @@ return [
         'DemoClass'=> App\ItSolution\DemoClassFacade::class,
 
         //model cache
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+    'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        //pdf
+        'PDF' => Barryvdh\DomPDF\Facade::class,
 
     ],
 
