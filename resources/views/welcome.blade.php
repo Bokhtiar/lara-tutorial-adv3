@@ -8,6 +8,9 @@
 </head>
 <body>
     <p><a href="{{url('helper')}}">helper class</a></p>
+    <p><a href="">pdf</a></p>
+    <a href="">pdf viewr</a>
+    <!-- https://github.com/goodnesskay/LARAVEL-PDF-VIEWER-->
 
 </body>
 </html>

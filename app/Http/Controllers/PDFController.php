@@ -13,4 +13,9 @@ class PDFController extends Controller
   
         return $pdf->download('itsolutionstuff.pdf');
     }
+
+    public function pdfreader()
+    {
+        return view('pdfReader');
+    }
 }

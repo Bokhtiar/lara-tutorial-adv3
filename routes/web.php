@@ -39,3 +39,4 @@ Route::delete('myproductsDeleteAll', [App\Http\Controllers\ProductController::cl
 // Route::delete('myproductsDeleteAll', 'ProductController@deleteAll');
 //pdf
 Route::get('generate-pdf', [App\Http\Controllers\PDFController::class, 'generatePDF']);
+Route::get('pdf-reader', [App\Http\Controllers\PDFController::class, 'pdfreader']);

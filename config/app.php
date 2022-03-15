@@ -182,6 +182,8 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         //pdf
         Barryvdh\DomPDF\ServiceProvider::class,
+        // pdf viwer
+        
 
     ],
 
